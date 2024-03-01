@@ -291,6 +291,12 @@ input, select, textarea {
 		align-items: stretch;
 	}
 
+	.row.project .project .box.style2{
+		height: 100%!important;
+	}
+
+	
+
 		.row > * {
 			box-sizing: border-box;
 		}
@@ -1807,7 +1813,7 @@ input, select, textarea {
 					background-color: #444;
 					border-radius: 6px;
 					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
-					color: #2E2E2E !important;
+					color: #fff !important;
 					display: block;
 					font-size: 26px;
 					height: 48px;
@@ -1974,7 +1980,7 @@ input, select, textarea {
 		}
 
 		.icon.featured {
-			color: #EA8A95;
+			color: #000000;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
@@ -2001,12 +2007,22 @@ input, select, textarea {
 		.wrapper.style2 {
 			background-color: #fafafa;
 			text-shadow: 1px 1px 0px #fff;
+			text-align: left !important;
 		}
 
-		.wrapper.style3 {
+		.wrapper.style2 .about-heading{
+			text-align: center;
+		}
+
+		.wrapper .row .box.style3 {
 			background-color: #f4f4f4;
 			text-shadow: 1px 1px 0px #fff;
+			height: 100%vh;
+			overflow: hidden;
 		}
+
+		
+
 
 		.wrapper.style4 {
 			background-color: #303030;
@@ -2376,6 +2392,9 @@ input, select, textarea {
 					max-width: 32em;
 					margin-left: auto !important;
 					margin-right: auto !important;
+					display: flex !important;
+					height: 30% !important;
+					overflow: hidden !important;
 				}
 
 		/* Wrappers */
